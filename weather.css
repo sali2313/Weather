@@ -1,0 +1,44 @@
+form {
+    text-align: center;
+}
+
+#city {
+    font-size: 20px;
+}
+#sumbit {
+    font-size: 20px;
+}
+#sumbit:hover {
+    background-color: rgb(204, 207, 211);
+    border: 2px solid rgb(126, 128, 129);
+}
+
+#cityname{
+    text-align: center;
+    border: 1px solid red;
+    margin-top: 20px;
+}
+
+.info {
+    margin: 30px;
+    border: 1px dotted black;
+    margin-top: 20px;
+    padding: 20px;
+}
+
+#tempdes {
+    display: flex;
+    justify-content: space-around;
+    /* background-color: rgb(182, 182, 234); */
+
+}
+
+body{
+    background-image: linear-gradient(to bottom right,rgb(0, 51, 255), rgb(48, 110, 113));
+    /* height: 100%; */
+    color: wheat;
+}
+a, a:visited{
+    text-decoration: none;
+    color: white;
+}
