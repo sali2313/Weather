@@ -34,11 +34,19 @@ form {
 }
 
 body{
-    background-image: linear-gradient(to bottom right,rgb(0, 51, 255), rgb(48, 110, 113));
+    /* background-image: linear-gradient(to bottom right,rgb(0, 51, 255), rgb(48, 110, 113)); */
     /* height: 100%; */
-    color: wheat;
+    color: rgb(0, 0, 0);
+    background-image:null;
+    background-repeat: no-repeat;
+    /* background-size: auto */
+    background-size: 100% 100%;
 }
 a, a:visited{
     text-decoration: none;
-    color: white;
+    color: rgb(0, 0, 0);
+}
+
+img{
+    opacity: 100%;
 }
