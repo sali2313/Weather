@@ -42,16 +42,16 @@ $(document).ready(function(){
                                 let finaldesc = jesresponse.weather[0].main;
                                 describe.innerHTML = finaldesc;
 
-                                if (finaldesc === 'Clouds'){
-                                    $('body').css('background-image', 'url("rain.jpg")')
-                                    }
+                                // if (finaldesc === 'Clouds'){
+                                //     $('body').css('background-image', 'url("rain.jpg")')
+                                //     }
                                 // console.log(finaldesc)
                                 // console.log(jesresponse.weather)
                             //  $('p#paragraph1').html(jesresponse.weather);
                         })
-                    $('p#paragraph1').text('Successed');
-                    console.log("sucsess");
-                    console.log(api);
+                    // $('p#paragraph1').text('Successed');
+                    // console.log("sucsess");
+                    // console.log(api);
                     return false;
                 }
                 
