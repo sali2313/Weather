@@ -2,29 +2,60 @@
     font-family: comic;
     src: url(ComicSansMS3.ttf);
 }
+body{
+    color: rgb(255, 255, 255);
+    background: #352A5A;;
+    font-family:  comic;
+    margin: 0;
+}
 
-#form{
-    width: 65%;
-    margin: auto;
-    margin-top: 80px;
-    margin-bottom: 50px;
+#form form input:nth-child(2) {
+    width: 25%;
+    background: linear-gradient(270deg, rgba(231, 37, 211, 0.5) -6.73%, rgba(170, 101, 203, 0.9375) 29.4%, #C091D7 95.65%);
+    color: white;
+    border-radius: 10px;
 }
 form {
     text-align: center;
-    width: 100%;
-    /* border: 5px solid sandybrown; */
     margin: auto;
+    display: flex;
+    width: 65%;
+    margin-top: 80px;
+    margin-bottom: 50px;
+
+}
+#city {
+    background: linear-gradient(270deg, rgba(231, 37, 211, 0.5) -6.73%, rgba(170, 101, 203, 0.9375) 29.4%, #C091D7 95.65%);
+    color: white;
+    width: 100%;
+    padding: 15px 0 ;
+    margin: auto;
+}
+
+input:-webkit-autofill,
+input:-webkit-autofill:hover, 
+input:-webkit-autofill:focus, 
+input:-webkit-autofill:active{
+    -webkit-text-fill-color: white !important;
+    -webkit-box-shadow: 0 0 0 30px inset #381366;
+}
+
+
+input {
+    border: none;
+    border-radius: 10px;
+    text-align: center;
+    font-size: 1.2rem;
 }
 
 #sumbit:hover {
     background-color: rgb(204, 207, 211);
-    /* border: 2px solid rgb(126, 128, 129); */
+    cursor: grab;
 }
 
 .cityname{
     font-size: 1.8rem;
     text-align: center;
-    /* border: 1px solid red; */
     background: linear-gradient(270deg, rgba(231, 37, 211, 0.5) -6.73%, rgba(174, 87, 214, 0.9375) 40.42%, #C091D7 95.65%);
     padding-top: 17.5px;
     padding-bottom: 17.5px;
@@ -37,7 +68,6 @@ form {
 
 .info {
     font-size: 1.5rem;
-    /* border: 1px dotted rgb(255, 255, 255); */
     padding: 20px;
     background: #381366;
     border-radius: 10px;
@@ -55,19 +85,10 @@ form {
 
 }
 
-body{
-    color: rgb(255, 255, 255);
-    background: #352A5A;;
-    font-family:  comic;
-    margin: 0;
-}
+
 a, a:visited{
     text-decoration: none;
     color: rgb(255, 255, 255);
-}
-
-img{
-    opacity: 100%;
 }
 
 .weather {  
@@ -75,31 +96,11 @@ img{
     width: 65%;
     display: flex;
     justify-content: space-between;
-    /* border: 2px solid wheat; */
-    /* margin-top: 40px; */
 }
 #paragraph1 {
     text-align: center;
 }
 
-#details {
-    /* border: 2px solid rgb(211, 226, 0); */
-    /* margin-top: 200px; */
-}
-
-#city {
-    background: linear-gradient(270deg, rgba(231, 37, 211, 0.5) -6.73%, rgba(170, 101, 203, 0.9375) 29.4%, #C091D7 95.65%);
-    width: 100%;
-    padding: 15px 0 ;
-    /* text-align: left; */
-    margin: auto;
-}
-input {
-    border: none;
-    border-radius: 10px;
-    text-align: center;
-    font-size: 1.2rem;
-}
 
 ::-webkit-input-placeholder {
     text-align: center;
@@ -112,15 +113,11 @@ input {
   
 @media (max-width:650px){
     html {
-        /* background-color: red; */
         font-size: 0.5rem;
     }
 
     .info {
-        /* font-size: 0.11rem; */
-        /* background-color: rgb(255, 0, 170); */
         width: 10%;
-        /* border: 2px solid black; */
     }
 
     .cityname {
@@ -132,7 +129,6 @@ input {
         margin-bottom: 20px;
     }
     #details {
-        /* border: 2px solid rgb(211, 226, 0); */
         padding-top: 00px;
     }
 
